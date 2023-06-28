@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_manipulate_quote_author"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_rectangle_shape"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/et_ManipulateQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/quote"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/black"
+        android:textColorHint="#717171" />
+
+    <EditText
+        android:id="@+id/et_ManipulateAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/author"
+        android:textColor="@color/black"
+        android:textColorHint="#717171" />
+
+    <Button
+        android:id="@+id/btn_manipulateQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="@string/manipulate"
+        android:textSize="20sp" />
+
+</LinearLayout>
